@@ -16,12 +16,14 @@ This is a web-based customer service messaging application that delivers message
 
 
 ## Login Dashboard
+![Screen Shot 2024-02-12 at 11 44_edited](https://github.com/user-attachments/assets/21a38a54-56f5-4cc0-9253-ecdc76ee334b)
 
 
 <!-- my social media links -->
 
 
 ## Chat Dashboard
+<img width="958" alt="pic2" src="https://github.com/user-attachments/assets/a3953376-f386-4281-a92b-d41e36932690">
 
 
 
@@ -35,29 +37,33 @@ This is a web-based customer service messaging application that delivers message
 
 ## Navigate to the project directory:
 
-bash```
+```bash
 cd cs-messaging-web-app
 ```
-Install dependencies for both backend and frontend:
 
-bash
 # Install backend dependencies
+```bash
 cd backend
 npm install
+```
 
 # Install frontend dependencies
+```bash
 cd ../frontend
 npm install
-Run the application:
+```
 
-bash
 # Start the backend server (ensure MongoDB is running)
+```bash
 cd ../backend
 npm start
+```
 
 # Start the frontend server
+```
 cd ../frontend
 npm start
+```
 Open your browser and visit http://localhost:3000 to view the application.
 
 ## Usage
